@@ -208,12 +208,14 @@ form {
 
 .contenido {
   width: 100%;
-  background-image: url(imagenes/fondo.png); }
+  background-image: url(imagenes/fondo.png);
+  }
 
 .wrapper {
   width: 95%;
   margin: auto;
-  overflow: hidden; }
+  overflow: hidden; 
+ }
 
 .titulosh1 {
   background: #5FA71F;
@@ -298,7 +300,9 @@ form {
   width: 95%px;
   align-content: center;
   height: auto;
-  clear: left; }
+  clear: left; 
+	display: inline-flex;
+  flex-direction: row;}
 
 .izquierda {
   background-color: white;
